@@ -14,7 +14,6 @@ function Meals() {
     setMeals(data.meals);
   };
 
-  console.log(meals)
 
   const handler = (e) => {
     setSearch(e.target.value);

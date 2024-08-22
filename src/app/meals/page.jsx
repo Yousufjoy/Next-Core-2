@@ -1,4 +1,5 @@
 import Meals from "@/components/Meals";
+import styles from "./style.module.css";
 
 function MealsPage() {
   return (
@@ -6,7 +7,10 @@ function MealsPage() {
       <h1 className=" text-3xl font-semibold text-red-300">
         Choose Your Meals
       </h1>
-      <p>Choose Meals Of Your Choice By Searching</p>
+      <p className={`${styles.font_tomato} ${styles.text_large}`}>
+        Choose Meals Of Your Choice By Searching
+      </p>
+
       <Meals />
     </div>
   );
