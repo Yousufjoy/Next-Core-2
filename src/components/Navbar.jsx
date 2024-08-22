@@ -13,6 +13,10 @@ function Navbar() {
       title: "post",
       path: "/post",
     },
+    {
+      title: "meals",
+      path: "/meals",
+    },
   ];
 
   const handler = () => {
